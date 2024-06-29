@@ -33,7 +33,7 @@ const app = (0, express_1.default)();
 app.use((0, cors_1.default)());
 app.use("/api/order/checkout/webhook", express_1.default.raw({ type: "*/*" }));
 app.use(express_1.default.json());
-app.get("/health", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+app.use("/health", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     res.send({ message: "health OK!" });
 }));
 app.use("/api/my/user", user_routes_1.default);
