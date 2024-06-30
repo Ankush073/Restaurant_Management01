@@ -16,7 +16,7 @@ import {
           <div>
             <h2 className="text-2xl font-bold">Cuisines</h2>
             <FormDescription>
-              Select the cuisines that your restaurant serves
+              SELECT THE CUISINES
             </FormDescription>
           </div>
           <FormField
